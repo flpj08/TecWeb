@@ -1,0 +1,15 @@
+body{
+    width: 1000px;
+    margin: auto;
+}
+h1{
+    font-size: 90px;
+}
+
+section.info-pessoais{
+    background-color: red;
+}
+
+section.formacao-academica{
+    background-color: blue;
+}
