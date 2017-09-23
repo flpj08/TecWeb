@@ -1,15 +1,29 @@
 body{
     width: 1000px;
     margin: auto;
+    background: #d7d7d7;
+    font-family: 'Open Sans', sans-serif;
 }
+
 h1{
     font-size: 90px;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
-section.info-pessoais{
-    background-color: red;
+h2{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 25px;
 }
 
-section.formacao-academica{
-    background-color: blue;
+section.info-pessoais,
+section.formacao-academica,
+section.formacao-comp,
+section.experiencia-prof,
+section.participacao-eventos,
+section.info-adicionais {
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
