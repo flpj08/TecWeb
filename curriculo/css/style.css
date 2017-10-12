@@ -25,5 +25,22 @@ section.participacao-eventos,
 section.info-adicionais {
   padding-top: 25px;
   padding-bottom: 50px; }
+  section.info-pessoais strong, section.info-pessoais span, section.info-pessoais address,
+  section.formacao-academica strong,
+  section.formacao-academica span,
+  section.formacao-academica address,
+  section.formacao-comp strong,
+  section.formacao-comp span,
+  section.formacao-comp address,
+  section.experiencia-prof strong,
+  section.experiencia-prof span,
+  section.experiencia-prof address,
+  section.participacao-eventos strong,
+  section.participacao-eventos span,
+  section.participacao-eventos address,
+  section.info-adicionais strong,
+  section.info-adicionais span,
+  section.info-adicionais address {
+    color: #CFD2DA; }
 
 /*# sourceMappingURL=style.css.map */
