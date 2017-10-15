@@ -1,0 +1,13 @@
+{
+    "name": "Curriculum-Contact",
+    "version": "1.0",
+    "description": "pt-BR Template of curriculums with sending email feature.",
+    "main": "index.js",
+    "dependencies": {
+        "bootstrap": "4.0.0-beta",
+        "jquery": "^3.2.1",
+        "popper.js": "^1.11.1",
+        "mailgun-js": "latest"
+    },
+    "author": "Filipe Jorge"
+}
