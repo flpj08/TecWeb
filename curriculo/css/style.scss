@@ -1,20 +1,38 @@
+$bg-color: whitesmoke;
+$bg-page-color:#252830;
+$primary-font-color: #FFFFFF;
+$secundary-font-color: #CFD2DA;
+$primary-color: #008ed6;
+
 body {
-    background: #CFD2DA;
+    background: $bg-color;
     font-family: 'Open Sans', sans-serif;
+    color: $primary-font-color;
 }
 
-header{
+.navbar{
+    border-bottom: $primary-color 2px solid;
+}
+
+.nav-item{
+    border-left: rgba(255,255,255,0.2) 1px solid;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.absolute-div{
     position: absolute;
     left: 190px;
-    top: 10px;
+    top: 75px;
 
     h1{
         position: absolute;
         left: 190px;
-        top: 75px;
+        top: 40px;
         width: max-content;
-        color:#252830;
+        color:$bg-page-color;
         font-size: 50px;
+        margin-left: 5px;
     }
 }
 
@@ -28,14 +46,14 @@ img.perfil{
 
 main{
     width: 900px;
-    margin: 150px auto 0px auto;
-    background: #252830;
+    margin: 175px auto 0px auto;
+    background:$bg-page-color;
     padding: 10px;
     box-shadow: 2px 2px 8px black;
 }
 
 h2{
-    color:#FFFFFF;
+    color:$primary-font-color;
     font-size: 25px;
     text-align: center;
     text-decoration: underline;
@@ -50,12 +68,17 @@ section.participacao-eventos,
 section.info-adicionais {
     padding-top: 20px;
     padding-bottom: 50px;
+    border-bottom: $primary-color 1px solid;
 
     strong{
-        color: #CFD2DA;
+        color: $primary-font-color;
     }
     p, span, address{
         font-size: 15px;
-        color: #CFD2DA;
+        color: $secundary-font-color;
     }
+}
+
+footer{
+    border-top: $primary-color 2px solid;
 }
