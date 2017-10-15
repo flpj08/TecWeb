@@ -1,7 +1,7 @@
-$bg-color: whitesmoke;
-$bg-page-color:#252830;
-$primary-font-color: #FFFFFF;
-$secundary-font-color: #CFD2DA;
+$bg-color: #252830;
+$bg-page-color:whitesmoke;
+$primary-font-color: #252830;
+$secundary-font-color: #2d3341;
 $primary-color: #008ed6;
 
 body {
@@ -52,14 +52,6 @@ main{
     box-shadow: 2px 2px 8px black;
 }
 
-h2{
-    color:$primary-font-color;
-    font-size: 25px;
-    text-align: center;
-    text-decoration: underline;
-    padding-bottom: 20px;
-}
-
 section.info-pessoais,
 section.formacao-academica,
 section.formacao-comp,
@@ -67,9 +59,15 @@ section.experiencia-prof,
 section.participacao-eventos,
 section.info-adicionais {
     padding-top: 20px;
-    padding-bottom: 50px;
-    border-bottom: $primary-color 1px solid;
+    padding-bottom: 40px;
 
+    h2{
+        color:$primary-font-color;
+        font-size: 25px;
+        text-align: center;
+        text-decoration: underline;
+        padding-bottom: 20px;
+    }
     strong{
         color: $primary-font-color;
     }
@@ -77,6 +75,10 @@ section.info-adicionais {
         font-size: 15px;
         color: $secundary-font-color;
     }
+}
+
+.border-bottom{
+    border-bottom: $bg-color 1px solid;
 }
 
 footer{

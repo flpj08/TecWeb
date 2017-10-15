@@ -1,7 +1,7 @@
 body {
-  background: whitesmoke;
+  background: #252830;
   font-family: 'Open Sans', sans-serif;
-  color: #FFFFFF; }
+  color: #252830; }
 
 .navbar {
   border-bottom: #008ed6 2px solid; }
@@ -20,7 +20,7 @@ body {
     left: 190px;
     top: 40px;
     width: max-content;
-    color: #252830;
+    color: whitesmoke;
     font-size: 50px;
     margin-left: 5px; }
 
@@ -34,16 +34,9 @@ img.perfil {
 main {
   width: 900px;
   margin: 175px auto 0px auto;
-  background: #252830;
+  background: whitesmoke;
   padding: 10px;
   box-shadow: 2px 2px 8px black; }
-
-h2 {
-  color: #FFFFFF;
-  font-size: 25px;
-  text-align: center;
-  text-decoration: underline;
-  padding-bottom: 20px; }
 
 section.info-pessoais,
 section.formacao-academica,
@@ -52,15 +45,25 @@ section.experiencia-prof,
 section.participacao-eventos,
 section.info-adicionais {
   padding-top: 20px;
-  padding-bottom: 50px;
-  border-bottom: #008ed6 1px solid; }
+  padding-bottom: 40px; }
+  section.info-pessoais h2,
+  section.formacao-academica h2,
+  section.formacao-comp h2,
+  section.experiencia-prof h2,
+  section.participacao-eventos h2,
+  section.info-adicionais h2 {
+    color: #252830;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px; }
   section.info-pessoais strong,
   section.formacao-academica strong,
   section.formacao-comp strong,
   section.experiencia-prof strong,
   section.participacao-eventos strong,
   section.info-adicionais strong {
-    color: #FFFFFF; }
+    color: #252830; }
   section.info-pessoais p, section.info-pessoais span, section.info-pessoais address,
   section.formacao-academica p,
   section.formacao-academica span,
@@ -78,7 +81,10 @@ section.info-adicionais {
   section.info-adicionais span,
   section.info-adicionais address {
     font-size: 15px;
-    color: #CFD2DA; }
+    color: #2d3341; }
+
+.border-bottom {
+  border-bottom: #252830 1px solid; }
 
 footer {
   border-top: #008ed6 2px solid; }
