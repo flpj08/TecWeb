@@ -1,0 +1,92 @@
+body {
+  background: #252830;
+  font-family: 'Open Sans', sans-serif;
+  color: #252830; }
+
+.navbar {
+  border-bottom: #008ed6 2px solid; }
+
+.nav-item {
+  border-left: rgba(255, 255, 255, 0.2) 1px solid;
+  padding-left: 2px;
+  padding-right: 2px; }
+
+.absolute-div {
+  position: absolute;
+  left: 190px;
+  top: 75px; }
+  .absolute-div h1 {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    width: max-content;
+    color: whitesmoke;
+    font-size: 50px;
+    margin-left: 5px; }
+
+img.perfil {
+  height: 150px;
+  width: 175px;
+  margin: 2px;
+  border: 5px solid whitesmoke;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+
+main {
+  width: 900px;
+  margin: 175px auto 0px auto;
+  background: whitesmoke;
+  padding: 10px;
+  box-shadow: 2px 2px 8px black; }
+
+section.info-pessoais,
+section.formacao-academica,
+section.formacao-comp,
+section.experiencia-prof,
+section.participacao-eventos,
+section.info-adicionais {
+  padding-top: 20px;
+  padding-bottom: 40px; }
+  section.info-pessoais h2,
+  section.formacao-academica h2,
+  section.formacao-comp h2,
+  section.experiencia-prof h2,
+  section.participacao-eventos h2,
+  section.info-adicionais h2 {
+    color: #252830;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px; }
+  section.info-pessoais strong,
+  section.formacao-academica strong,
+  section.formacao-comp strong,
+  section.experiencia-prof strong,
+  section.participacao-eventos strong,
+  section.info-adicionais strong {
+    color: #252830; }
+  section.info-pessoais p, section.info-pessoais span, section.info-pessoais address,
+  section.formacao-academica p,
+  section.formacao-academica span,
+  section.formacao-academica address,
+  section.formacao-comp p,
+  section.formacao-comp span,
+  section.formacao-comp address,
+  section.experiencia-prof p,
+  section.experiencia-prof span,
+  section.experiencia-prof address,
+  section.participacao-eventos p,
+  section.participacao-eventos span,
+  section.participacao-eventos address,
+  section.info-adicionais p,
+  section.info-adicionais span,
+  section.info-adicionais address {
+    font-size: 15px;
+    color: #2d3341; }
+
+.border-bottom-section {
+  border-bottom: #252830 1px solid; }
+
+footer {
+  border-top: #008ed6 2px solid; }
+
+/*# sourceMappingURL=style.css.map */
