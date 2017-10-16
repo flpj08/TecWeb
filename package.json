@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/flpj08/TecWeb/issues"
   },
-  "homepage": "https://github.com/flpj08/TecWeb#readme"
+  "homepage": "https://github.com/flpj08/TecWeb#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mailgun-js": "^0.13.1"
+  }
 }
