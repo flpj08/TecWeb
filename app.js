@@ -20,4 +20,8 @@ app.get('/', (req, res) => {
     res.render('curriculo');
 });
 
+app.post('/send', (req, res) => {
+    console.log(req.body);
+});
+
 app.listen(8080, () => console.log('Server Iniciou...'));
