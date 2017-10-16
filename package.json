@@ -1,0 +1,19 @@
+{
+  "name": "tecweb",
+  "version": "1.0.0",
+  "description": "Template de curriculo com envio de email para contato.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flpj08/TecWeb.git"
+  },
+  "author": "Filipe Jorge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flpj08/TecWeb/issues"
+  },
+  "homepage": "https://github.com/flpj08/TecWeb#readme"
+}
