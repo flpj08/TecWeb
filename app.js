@@ -20,6 +20,7 @@ app.get('/', (req, res) => {
     res.render('curriculo');
 });
 
+<<<<<<< HEAD
 app.post('/send', (req, res) => {
     const output = `
         <p>Você recebeu um e-mail de Contato do seu currículo</p>
@@ -44,4 +45,6 @@ app.post('/send', (req, res) => {
     });
 });
 
+=======
+>>>>>>> parent of 8c45fac... Ajustes no formulário para montagem da saída.
 app.listen(8080, () => console.log('Server Iniciou...'));
