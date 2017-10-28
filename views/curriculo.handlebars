@@ -225,28 +225,27 @@
 					</div>
 					{{msg}}
 					<div class="modal-body">
-						<form>
+						<form method="POST" action="send">
 							<div class="form-group">
-								<label for="name">Nome</label>
-								<input type="text" class="form-control">
+								<label>Nome</label>
+								<input type="text" name="name" class="form-control">
 							</div>
 							<div class="form-group">
-								<label for="email">E-mail</label>
-								<input type="email" class="form-control">
+								<label>E-mail</label>
+								<input type="email" name="email" class="form-control">
 							</div>
 							<div class="form-group">
-								<label for="message">Mensagem</label>
-								<textarea class="form-control"></textarea>
+								<label>Mensagem</label>
+								<textarea name="message" rows="5" class="form-control"></textarea>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="btn btn-primary btn-block">Enviar</button>
 							</div>
 						</form>
-					</div>
-					<div class="modal-footer">
-						<button class="btn btn-pimary btn-block">Enviar</button>
 					</div>
 				</div>
 			</div>
 		</div>
-<<<<<<< HEAD
 		<!--
 		Msg alerta Sucesso
 		<div id="SuccessAlert"	class="alert alert-success alert-dismissible fade show" role="alert">
@@ -258,8 +257,6 @@
 		Msg alerta Danger
 		-->
 		
-=======
->>>>>>> parent of 8c45fac... Ajustes no formulário para montagem da saída.
 		<script src="../public/js/jquery.min.js"></script>
 		<script src="../public/js/popper.min.js"></script>
 		<script src="../public/js/bootstrap.min.js"></script>
