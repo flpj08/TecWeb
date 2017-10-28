@@ -47,12 +47,10 @@ app.post('/send', (req, res) => {
     mailgun.messages().send(data, function (error, body) {
       console.log(body);
       if(!error){
-        res.render('curriculo', {msg:"E-mail enviado"});
+        res.render('curriculo', {msg:"E-mail enviado com sucesso!"});
       }else{
         res.render('curriculo', {msg:"E-mail não pôde ser enviado. Tente mais tarde."});
-      }
-        
-        
+      } 
     });
 });
 
