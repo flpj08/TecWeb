@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="../css/reset.css">
-		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-		<link rel="stylesheet" href="../css/style.css">   
-
+		<link rel="stylesheet" href="css/style.css">   
+        <script src="js/script.js"></script>
 		<title>Curriculum - Filipe J.</title>
 	</head>
 
@@ -51,7 +50,7 @@
 
 		<div class="container absolute-div">
 			<a href="index.html" class="navbar-brand">
-			<img alt="Brand" class="perfil" src="../imagens/fotoFilipe.jpg"></a>
+			<img alt="Brand" class="perfil" src="imagens/fotoFilipe.jpg"></a>
 			<h1>Filipe Jorge</h1>
 		</div>
 
@@ -94,7 +93,7 @@
 					</li>
 				</ul>
 			</section>
-			
+
 			<section id="formacao-academica-head-section" class="formacao-academica border-bottom-section">
 				<h2>Formação Acadêmica</h2>
 				<ul>
@@ -208,14 +207,14 @@
 						<div class="py-3">
 							<h1 class="h3">Curriculum Filipe Jorge</h1>
 							<p>By Filipe Jorge</p>
-							<button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contato</button>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contato</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
 
-		<!--Contact Modal-->
+		<!--Modal de Contato-->
 		<div class="modal fade text-dark" id="contactModal">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -225,30 +224,42 @@
 						</h5>
 					</div>
 					<div class="modal-body">
-						<form>
+					<!--	<form method="POST" action="send"> -->
+						<form method="POST">
 							<div class="form-group">
-								<label for="name">Nome</label>
-								<input type="text" class="form-control">
+								<label>Nome</label>
+								<input type="text" name="name" class="form-control">
 							</div>
 							<div class="form-group">
-								<label for="email">E-mail</label>
-								<input type="email" class="form-control">
+								<label>E-mail</label>
+								<input type="email" name="email" class="form-control">
 							</div>
 							<div class="form-group">
-								<label for="message">Mensagem</label>
-								<textarea class="form-control"></textarea>
+								<label>Mensagem</label>
+								<textarea name="message" rows="5" class="form-control"></textarea>
+							</div>
+							<div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-block">Enviar</button>
 							</div>
 						</form>
-					</div>
-					<div class="modal-footer">
-						<button class="btn btn-pimary btn-block">Enviar</button>
 					</div>
 				</div>
 			</div>
 		</div>
-		<script src="../js/jquery.min.js"></script>
-		<script src="../js/popper.min.js"></script>
-		<script src="../js/bootstrap.min.js"></script>
+		<!--
+		Msg alerta Sucesso
+		<div id="SuccessAlert"	class="alert alert-success alert-dismissible fade show" role="alert">
+			E-mail enviado com sucesso!
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+		Msg alerta Danger
+		-->
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</body>
 
 </html>
