@@ -31,17 +31,16 @@ app.post('/send', (req, res) => {
         <h3>Messagem</h3>
         <p>${req.body.message}</p>
     `;
-    
 
-     
-    mailgun.messages().send(data, function (error, body) {
+    res.send('CARALHARA');
+    /*mailgun.messages().send(data, function (error, body) {
       console.log(body);
       if(!error){
         res.render('curriculo', {msg:"E-mail enviado com sucesso!"});
       }else{
         res.render('curriculo', {msg:"E-mail não pôde ser enviado. Tente mais tarde."});
       } 
-    });
+    });*/
 });
 
 app.listen(8080, () => console.log('Server Iniciou...'));
