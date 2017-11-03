@@ -32,15 +32,26 @@ app.post('/send', (req, res) => {
         <p>${req.body.message}</p>
     `;
 
-    res.send('CARALHARA');
-    /*mailgun.messages().send(data, function (error, body) {
+    var api_key = 'key-3284371bff298913e515e707bb2ec6da';
+    var domain = 'sandbox4362b072f356473ba2b2446e35719a6a.mailgun.org';
+    var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
+     
+    var data = {
+      from: '"MailGun Curriculo" <postmaster@sandbox4362b072f356473ba2b2446e35719a6a.mailgun.org>',
+      to: 'filipe.483313@alunosatc.edu.br',
+      subject: 'Contato Curriculum',
+      text: 'Testing some Mailgun awesomness!',
+      html: output
+    };
+
+    mailgun.messages().send(data, function (error, body) {
       console.log(body);
       if(!error){
         res.render('curriculo', {msg:"E-mail enviado com sucesso!"});
       }else{
         res.render('curriculo', {msg:"E-mail não pôde ser enviado. Tente mais tarde."});
       } 
-    });*/
+    });
 });
 
 app.listen(8080, () => console.log('Server Iniciou...'));
