@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Template de curriculo com envio de email para contato.",
   "engines": {
-    "node": "6.11.4"
+    "node": "6.11.4",
+    "npm": "3.10.10"
   },
   "main": "app.js",
   "scripts": {
@@ -25,5 +26,9 @@
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
     "mailgun-js": "^0.13.1"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
   }
 }
