@@ -1,0 +1,7 @@
+{
+    "name": "Curriculum Filipe Jorge",
+    "description": "Template de curriculo com envio de email para contato.",
+    "repository": "git+https://github.com/flpj08/TecWeb.git",
+    "keywords": ["node", "html5", "css", "js", "mailgun"],
+    "image": "heroku/js"
+}
