@@ -21,5 +21,8 @@
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
     "mailgun-js": "^0.13.1"
+  },
+  "engines": {
+    "node": "6.11.4"
   }
 }
