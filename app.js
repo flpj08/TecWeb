@@ -26,7 +26,8 @@ app.post('/send', (req, res) => {
         <h3>Detalhes do contato</h3>
         <ul>
             <li>Nome: ${req.body.name}</li>
-            <li>Nome: ${req.body.email}</li>
+            <li>Telefone: ${req.body.telefone}</li>
+            <li>Email: ${req.body.email}</li>
         </ul>
         <h3>Messagem</h3>
         <p>${req.body.message}</p>
@@ -40,7 +41,6 @@ app.post('/send', (req, res) => {
       from: '"MailGun Curriculo" <postmaster@sandbox4362b072f356473ba2b2446e35719a6a.mailgun.org>',
       to: 'filipe.483313@alunosatc.edu.br',
       subject: 'Contato Curriculum',
-      text: 'Testing some Mailgun awesomness!',
       html: output
     };
 
